@@ -6,16 +6,16 @@ function Header() {
 
     const navigate = useNavigate();
     const onPressHome = () => {
-        navigate("/");
+        navigate("/BlogPage/");
     }
     const onPressPapers = () => {
-        navigate("/papers");
+        navigate("/BlogPage/papers");
     }
     const onPressProjects = () => {
-        navigate("/projects");
+        navigate("/BlogPage/projects");
     }
     const onPressStudy = () => {
-        navigate("/study");
+        navigate("/BlogPage/study");
     }
 
     return (
