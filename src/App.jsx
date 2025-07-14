@@ -10,7 +10,7 @@ import "./main.css"
 function AppContent() {
     return (
         <Routes>
-            <Route path="/" element={
+            <Route path="/BlogPage/" element={
                 <Home/>
             }/>
             <Route path="/papers" element={

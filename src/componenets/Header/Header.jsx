@@ -6,7 +6,7 @@ function Header() {
 
     const navigate = useNavigate();
     const onPressHome = () => {
-        navigate("/");
+        navigate("/BlogPage/");
     }
     const onPressPapers = () => {
         navigate("/papers");
