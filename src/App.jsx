@@ -10,16 +10,16 @@ import "./main.css"
 function AppContent() {
     return (
         <Routes>
-            <Route path="/BlogPage/" element={
+            <Route path="/" element={
                 <Home/>
             }/>
-            <Route path="/BlogPage/papers" element={
+            <Route path="/papers" element={
                 <Papers/>
             }/>
-            <Route path="/BlogPage/projects" element={
+            <Route path="/projects" element={
                 <Projects/>
             }/>
-            <Route path="/BlogPage/study" element={
+            <Route path="/study" element={
                 <Study/>
             }/>
         </Routes>
