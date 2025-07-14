@@ -1,0 +1,9 @@
+body{width: 100%;margin: 0; padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#root{
+    margin: 0;
+    width: 65%;
+    min-width: 700px;
+}

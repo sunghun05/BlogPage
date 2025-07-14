@@ -1,0 +1,32 @@
+h1{
+    margin: 0;
+}
+.header-wrapper{
+
+    height: 60px;
+
+    border-bottom: rgba(66,66,66,0.76) solid 1.5px;
+
+    display: flex;
+    align-items: center;
+
+}
+h1{cursor: pointer;}
+ul{
+    margin-left: 100px;
+    padding: 0;
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    padding: 5px;
+    cursor: pointer;
+    width: 80px;
+    transition: 0.2s;
+}
+li:hover{
+    color: darkgray;
+}
