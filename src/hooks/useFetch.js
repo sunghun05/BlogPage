@@ -12,24 +12,7 @@ function useFetch({ dbId }) {
 
         const fetchData = async () => {
             setLoading(true);
-            try {
-                const response = await fetch(`https://api.notion.com/v1/databases/${dbId}/query`, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({ dbId }),
-                });
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                const result = await response.json();
-                if (!isCancelled) {
-                    setData(result);
-                }
-            } catch (err) {
-                if (!isCancelled) setError(err);
-            } finally {
-                if (!isCancelled) setLoading(false);
-            }
+
         };
 
         fetchData();
