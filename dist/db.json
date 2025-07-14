@@ -1,0 +1,36 @@
+{
+  "ComputerVision": {
+    "0": {
+      "Name": "tracklet",
+      "Categories": [
+        "MCPT"
+      ]
+    },
+    "1": {
+      "Name": "self-refinement",
+      "Categories": [
+        "clustering technique",
+        "MCPT"
+      ]
+    },
+    "2": {
+      "Name": "Anchor-guided clustering",
+      "Categories": [
+        "clustering technique",
+        "MCPT"
+      ]
+    },
+    "3": {
+      "Name": "Re-ID",
+      "Categories": [
+        "MCPT"
+      ]
+    },
+    "4": {
+      "Name": "Introduction",
+      "Categories": [
+        "intro"
+      ]
+    }
+  }
+}
