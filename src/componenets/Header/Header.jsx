@@ -9,24 +9,24 @@ function Header() {
         navigate("/BlogPage/");
     }
     const onPressPapers = () => {
-        navigate("/papers");
+        navigate("/BlogPage/papers");
     }
     const onPressProjects = () => {
-        navigate("/projects");
+        navigate("/BlogPage/projects");
     }
     const onPressStudy = () => {
-        navigate("/study");
+        navigate("/BlogPage/study");
     }
 
     return (
         <>
             <div className="header-wrapper">
                 <h1 onClick={onPressHome}>TITLE</h1>
-                <ul>
+                <ul className="menu-buttons">
                 {/*    menubar contents*/}
-                    <li onClick={onPressPapers}>Papers</li>
-                    <li onClick={onPressProjects}>Projects</li>
-                    <li onClick={onPressStudy}>Study</li>
+                    <li onClick={onPressPapers} className="menu-select">Papers</li>
+                    <li onClick={onPressProjects} className="menu-select">Projects</li>
+                    <li onClick={onPressStudy} className="menu-select">Study</li>
                 </ul>
             </div>
         </>

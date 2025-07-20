@@ -13,13 +13,13 @@ function AppContent() {
             <Route path="/BlogPage/" element={
                 <Home/>
             }/>
-            <Route path="/papers" element={
+            <Route path="/BlogPage/papers" element={
                 <Papers/>
             }/>
-            <Route path="/projects" element={
+            <Route path="/BlogPage/projects" element={
                 <Projects/>
             }/>
-            <Route path="/study" element={
+            <Route path="/BlogPage/study" element={
                 <Study/>
             }/>
         </Routes>
@@ -30,6 +30,7 @@ function App() {
     return (
         <BrowserRouter>
             <AppContent/>
+
         </BrowserRouter>
     )
 }
