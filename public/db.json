@@ -1,36 +1,75 @@
 {
   "ComputerVision": {
     "0": {
+      "Name": "MCPT",
+      "Categories": [],
+      "Status": "Not Started"
+    },
+    "1": {
+      "Name": "YOLO models",
+      "Categories": [],
+      "Status": "Not Started"
+    },
+    "2": {
       "Name": "tracklet",
       "Categories": [
         "MCPT"
-      ]
+      ],
+      "Status": "Not Started"
     },
-    "1": {
+    "3": {
       "Name": "self-refinement",
       "Categories": [
         "clustering technique",
         "MCPT"
-      ]
+      ],
+      "Status": "Not Started"
     },
-    "2": {
+    "4": {
       "Name": "Anchor-guided clustering",
       "Categories": [
         "clustering technique",
         "MCPT"
-      ]
+      ],
+      "Status": "Not Started"
     },
-    "3": {
+    "5": {
       "Name": "Re-ID",
       "Categories": [
         "MCPT"
-      ]
+      ],
+      "Status": "Not Started"
     },
-    "4": {
+    "6": {
       "Name": "Introduction",
       "Categories": [
         "intro"
-      ]
+      ],
+      "Status": "Not Started"
+    }
+  },
+  "Projects": {
+    "0": {
+      "Name": "LabOps",
+      "Categories": [
+        "React",
+        "MLOps"
+      ],
+      "Status": "Not Started"
+    },
+    "1": {
+      "Name": "쓰레기 불법 투기 감지 시스템",
+      "Categories": [
+        "ComputerVision",
+        "MCPT"
+      ],
+      "Status": "In Progress"
+    }
+  },
+  "Paper Reviews": {
+    "0": {
+      "Name": "A Robust Online Multi-Camera People Tracking System With Geometric Consistency and State-aware Re-ID Correction",
+      "Status": "In Progress"
     }
   }
 }
