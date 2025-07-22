@@ -15,6 +15,14 @@
         "MCPT"
       ],
       "Status": "In Progress"
+    },
+    "categories": {
+      "cat": [
+        "MCPT",
+        "ComputerVision",
+        "MLOps",
+        "React"
+      ]
     }
   },
   "StudyContents": {
@@ -80,6 +88,14 @@
         "intro"
       ],
       "Status": "In progress"
+    },
+    "categories": {
+      "cat": [
+        "intro",
+        "Probability",
+        "CV",
+        "React"
+      ]
     }
   }
 }
