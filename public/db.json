@@ -19,9 +19,9 @@
     "categories": {
       "cat": [
         "MCPT",
+        "React",
         "ComputerVision",
-        "MLOps",
-        "React"
+        "MLOps"
       ]
     }
   },
@@ -31,70 +31,70 @@
       "Categories": [
         "React"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "1": {
       "Name": "Probability",
       "Categories": [
         "Probability"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "2": {
       "Name": "MCPT",
       "Categories": [
         "CV"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "3": {
       "Name": "YOLO models",
       "Categories": [
         "CV"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "4": {
       "Name": "tracklet",
       "Categories": [
         "CV"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "5": {
       "Name": "self-refinement",
       "Categories": [
         "CV"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "6": {
       "Name": "Anchor-guided clustering",
       "Categories": [
         "CV"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "7": {
       "Name": "Re-ID",
       "Categories": [
         "CV"
       ],
-      "Status": "Not started"
+      "Status": "Done"
     },
     "8": {
       "Name": "Introduction",
       "Categories": [
         "intro"
       ],
-      "Status": "In progress"
+      "Status": "Done"
     },
     "categories": {
       "cat": [
-        "intro",
-        "Probability",
+        "React",
         "CV",
-        "React"
+        "Probability",
+        "intro"
       ]
     }
   }
