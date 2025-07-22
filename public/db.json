@@ -1,53 +1,4 @@
 {
-  "ComputerVision": {
-    "0": {
-      "Name": "MCPT",
-      "Categories": [],
-      "Status": "Not Started"
-    },
-    "1": {
-      "Name": "YOLO models",
-      "Categories": [],
-      "Status": "Not Started"
-    },
-    "2": {
-      "Name": "tracklet",
-      "Categories": [
-        "MCPT"
-      ],
-      "Status": "Not Started"
-    },
-    "3": {
-      "Name": "self-refinement",
-      "Categories": [
-        "clustering technique",
-        "MCPT"
-      ],
-      "Status": "Not Started"
-    },
-    "4": {
-      "Name": "Anchor-guided clustering",
-      "Categories": [
-        "clustering technique",
-        "MCPT"
-      ],
-      "Status": "Not Started"
-    },
-    "5": {
-      "Name": "Re-ID",
-      "Categories": [
-        "MCPT"
-      ],
-      "Status": "Not Started"
-    },
-    "6": {
-      "Name": "Introduction",
-      "Categories": [
-        "intro"
-      ],
-      "Status": "Not Started"
-    }
-  },
   "Projects": {
     "0": {
       "Name": "LabOps",
@@ -66,10 +17,69 @@
       "Status": "In Progress"
     }
   },
-  "Paper Reviews": {
+  "StudyContents": {
     "0": {
-      "Name": "A Robust Online Multi-Camera People Tracking System With Geometric Consistency and State-aware Re-ID Correction",
-      "Status": "In Progress"
+      "Name": "React",
+      "Categories": [
+        "React"
+      ],
+      "Status": "Not started"
+    },
+    "1": {
+      "Name": "Probability",
+      "Categories": [
+        "Probability"
+      ],
+      "Status": "Not started"
+    },
+    "2": {
+      "Name": "MCPT",
+      "Categories": [
+        "CV"
+      ],
+      "Status": "Not started"
+    },
+    "3": {
+      "Name": "YOLO models",
+      "Categories": [
+        "CV"
+      ],
+      "Status": "Not started"
+    },
+    "4": {
+      "Name": "tracklet",
+      "Categories": [
+        "CV"
+      ],
+      "Status": "Not started"
+    },
+    "5": {
+      "Name": "self-refinement",
+      "Categories": [
+        "CV"
+      ],
+      "Status": "Not started"
+    },
+    "6": {
+      "Name": "Anchor-guided clustering",
+      "Categories": [
+        "CV"
+      ],
+      "Status": "Not started"
+    },
+    "7": {
+      "Name": "Re-ID",
+      "Categories": [
+        "CV"
+      ],
+      "Status": "Not started"
+    },
+    "8": {
+      "Name": "Introduction",
+      "Categories": [
+        "intro"
+      ],
+      "Status": "In progress"
     }
   }
 }
